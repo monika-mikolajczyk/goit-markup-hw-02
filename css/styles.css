@@ -160,3 +160,28 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575;
 }
+
+
+/* --- PORTFOLIO --- */
+
+.options_images_project {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;   
+}
+
+.options_images_name {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: #757575;
+}
