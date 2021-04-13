@@ -16,11 +16,9 @@ line-height: 31px;
 letter-spacing: 0.03em;    
 color: #2196F3; 
 }
-
 .nazwa-klasy-2 {
 color: black;
 }
-
 
 .slogan_background {
 background-color:#2F303A;
@@ -48,13 +46,33 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
+cursor: pointer;
 }
-
 .navigation-list-link:hover {
 color: #2196F3;    
 }
 .navigation-list-link:focus {
 color: #2196F3;
+}
+
+.adress_email_telefon {
+text-decoration: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}  
+.adress_email_telefon:hover{
+color: #2196F3;
+}
+.adress_email_telefon:focus{
+color: #2196F3;
+}
+.adress_email_telefon:active{
+color: #2196F3;    
 }
 
 .modal-btn {
@@ -71,9 +89,10 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 background-color: #2196F3;   
 color: #ffffff;
+cursor: pointer;
 }
 
-.why_us_name {
+.why_us_list_name {
 font-family: "Roboto";
 font-style: normal;
 font-weight: bold;
@@ -132,7 +151,6 @@ color: #757575;
 
 .footer_things {
 background-color: #2F303A;
-
 }
 
 .place {
@@ -146,8 +164,12 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 } 
+.place:active {
+text-decoration: underline;   
+}
 
 .mail {
+text-decoration: none;
 font-family: "Roboto";
 font-style: normal;
 font-weight: normal;
@@ -156,6 +178,9 @@ line-height: 24px;
 /* or 171% */
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);   
+}
+.mail:active {
+text-decoration: underline;    
 }
 
 .telefon {
@@ -168,34 +193,11 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575;
 }
-
-.adress_email {
-text-decoration: none;
-font-family: "Roboto";
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #757575;
-}
-
-.adress_email:hover{
-color: #2196F3;
-}
-.adress_email:focus{
-color: #2196F3;
+.telefon:active {
+text-decoration: underline;     
 }
 
 /* --- PORTFOLIO --- */
-
-.option_list_name_link:hover {
-background-color: #2196F3;
-} 
-.option_list_name_link:focus {
-color: #2196F3;
-}
-
 
 .option_list_name_link {
 text-decoration: none;
@@ -208,6 +210,13 @@ line-height: 26px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+cursor: pointer;
+}
+.option_list_name_link:hover {
+background-color: #2196F3;
+} 
+.option_list_name_link:focus {
+color: #2196F3;
 }
 
 .options_images_project {
